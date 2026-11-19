@@ -2,7 +2,7 @@ const HEADER_HTML = `
 <header>
   <div class="contain header-container">
     <a href="#" class="logo">
-      <img src="images/44444.jpeg" alt="Marie Beauty Studio Logo">
+      <img src="assets/images/44444.jpeg" alt="Marie Beauty Studio Logo">
       <div class="logo-text">
         MARIE <span>BEAUTY STUDIO</span>
       </div>
