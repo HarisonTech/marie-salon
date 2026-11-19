@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +5,28 @@
 .head{
    min-height: 500px;
    width: 100%;
-   background-image:linear-gradient(rgba(2,7,28,0.5),rgba(2,7,28,0.5)),url(images/seatsseats.jpg); 
+   background-image:linear-gradient(rgba(2,7,28,0.5),rgba(2,7,28,0.5)),url(assets/images/seatsseats.jpg); 
    background-position: center;
    background-size: cover;
    position: relative;
    margin-top: 10px;
+}
+.nav-buttons{
+    display: flex;
+    gap: 15px;
+    background: transparent;
+   
+}
+.btn{
+       padding: 5px 10px;
+    background: linear-gradient(120deg, #000, #fdbf2d);
+    color: #fff;
+    border: 4px solid #d4af37;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display:inline-block;
 }
 .text-box{
     text-align: center;
@@ -36,7 +52,6 @@
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 13px;
     background: linear-gradient(150deg, #fdbf2d, #000);
     position: relative;
     cursor: pointer;
@@ -44,7 +59,8 @@
 }
 .hero-btn a{
     text-decoration: none;
-     color: #fff;
+    color: #fff;
+    font-size: 18px ;
 }
 .hero-btn:hover{
     border: 1px solid  #fdbf2d;
@@ -53,14 +69,14 @@
        transform: scale(1.1);
 }
 body{
-     /*background-image:url(images/2222.jpeg); */
+     /*background-image:url(assets/images/2222.jpeg); */
    /* background-position: center; */
    background: #000;
      background-size: cover;
       
 
 }
-.hado {
+.had{
     background-color: green;
     color: #fff;
     display: flex;
@@ -81,6 +97,9 @@ body{
     width: 100%;
     height: 20px;
     align-items: center;
+    
+    
+
 }
 .socials{
     color:grey;
@@ -140,6 +159,7 @@ body{
     display: block;
     margin:auto;
     transition: 0.5s;
+    background: #fdbf2d;
     
 }
 .about ul li:hover::after{
@@ -201,6 +221,7 @@ body{
     color: #fff;
     font-weight: 600;
     font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     padding: 5px 0;
     transition: all 0.3s ease;
@@ -249,8 +270,9 @@ body{
 
  }
  .btn-secondary{
-    background:linear-gradient(120deg, #000, #fdbf2d) ;
-    color: #fff;
+    background: goldenrod;
+    color: beige;
+    border: 2px solid goldenrod;
  }
  .btn-secondary:hover{
     background:linear-gradient(180deg, #fdbf2d, #000);
@@ -280,7 +302,7 @@ body{
    overflow: hidden;
      display: inline-block;
     animation: moveBackAndForth 10s ease-in-out infinite;
-    background:linear-gradient(rgba(2,7,28,0.5),rgba(2,7,28,0.5)),url(images/Protective\ Style\ Braids\ For\ Women.jpg) ;
+    background:linear-gradient(rgba(2,7,28,0.5),rgba(2,7,28,0.5)),url(assets/images/protective-style-braids.jpg) ;
 }
 @keyframes moveBackAndForth {
     0% {
@@ -322,7 +344,8 @@ body{
     top: 30px;
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    box-shadow: 0 10px 30px 0 #fdbf2d;
+    border: 2px solid #d4af37;
 }
 
 .image-card img {
@@ -501,12 +524,13 @@ body{
     color: #000;
     text-align: center;
 }
+
   footer{
   background: linear-gradient(150deg, #000, #fdbf2d);
   color: #fff;
-  padding: 50px 0 30px;
+  padding: 70px 0 30px;
   border-top:4px solid goldenrod ;
-   border-radius: 20px;
+border-radius: 20px;
  }
  .footer-content{
 display: grid;
@@ -591,6 +615,8 @@ margin-bottom: 50px;
   align-items: center;
  }
 
+
+/* Responsive sizing only — original colours, typography and design retained */
 @media (max-width: 900px) {
   .contact, .socials, .about { height:auto; min-height:20px; flex-wrap:wrap; }
   .contain { width:94%; max-width:100%; }

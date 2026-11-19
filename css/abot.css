@@ -195,7 +195,7 @@ body{
     color: #fdbf2d;
     align-items: center;
     justify-content: center;
-    background-image:linear-gradient(rgba(2,7,28,0.5),rgba(2,7,28,0.5)), url(images/seatsseats.jpg);
+    background-image:linear-gradient(rgba(2,7,28,0.5),rgba(2,7,28,0.5)), url(assets/images/seatsseats.jpg);
     text-align: center;
     height: 70px;
     padding-top: 15px;
@@ -269,7 +269,7 @@ body{
 
  }
  .front-page{
-   background: url(images/19069998416447658.jpg);
+   background: url(assets/images/19069998416447658.jpg);
    background-size: cover;
    background-position: center;
  }
@@ -292,7 +292,7 @@ body{
    color: #fff;
  }
  .back-page{
-   background: url(images/30\ Gorgeous\ French\ Tip\ Nails\ Ideas\ You’ll\ Truly\ Love.jpg);
+   background: url(assets/images/30-gorgeous-french-tip-nails.jpg);
    color: #fdbf2d;
    background-size: cover;
    background-position: center;
@@ -349,7 +349,7 @@ body{
 
  }
  .front-page1{
-   background: url(images/Bold\ Locs\ Hairstyle\ for\ Black\ Women\ \(1\).jpg);
+   background: url(assets/images/bold-locs-1.jpg);
    background-size: cover;
    background-position: center;
  }
@@ -372,7 +372,7 @@ body{
    color:#fff;
  }
  .back-page1{
-   background: url(images/hello.jpg);
+   background: url(assets/images/hello.jpg);
    color: #fdbf2d;
    background-size: cover;
    background-position: center;
@@ -425,7 +425,7 @@ body{
 
  }
  .front-page2{
-   background: url(images/children\ hairstyles.jpg);
+   background: url(assets/images/children-hairstyles.jpg);
    background-size: cover;
    background-position: center;
  }
@@ -448,7 +448,7 @@ body{
    color: #fff;
  }
  .back-page2{
-   background: url(images/632896553927649112.jpg);
+   background: url(assets/images/632896553927649112.jpg);
    color: #fdbf2d;
    background-size: cover;
    background-position: center;
